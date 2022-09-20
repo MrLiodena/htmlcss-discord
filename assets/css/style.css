@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: url('/img/jumbo.png');
+    background-size: cover;
+}
+
+.logo{
+    margin-top: 25px;
+}
+
+.box-flex{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+}
+
+li{
+    display: inline-block;
+    list-style: none;
+    padding: 30px;
+    font-size: 20px;
+    color: white;
+}
+
+#accedi{
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px 15px;
+    margin: 20px;
+    border: none;
+}
+
+.box-flex1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+    padding: 120px 40px 120px 40px;
+    color: white;
+}
+
+p{
+    padding-top: 30px;
+}
+
+.button1{
+    background-color: white;
+    border-radius: 25px;
+    padding: 10px 15px;
+    border: none;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 60px;
+}
+
+.canale-Discord{
+    display: flex;
+    justify-content: center;
+}
+
+.Titolo{
+    font-size: 50px;
+
+}
